@@ -22,3 +22,22 @@ def potential_divider( Input_Voltage,Resistors):
  print(round (Output_Voltage2, 2), "v")
 
 potential_divider(9, [3000, 1000])
+def temperature_check(temperature, unit ):
+  
+   hypothermia_C = 36.1
+   hyperthermia_C = 37.5
+
+   if unit == "F" :
+     temperature = (temperature - 32) * 5/9
+
+   if temperature < 36.1:
+            print("the patient is hypothermic.")
+   elif temperature > 37.5:
+           print("the patient is hyperthermic .")
+   else:
+         print("The patient's temperature is normal.")
+  
+
+temperature_check(14, "C") 
+temperature_check(37, "F")
+temperature_check(37, "C")

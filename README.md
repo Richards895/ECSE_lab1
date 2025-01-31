@@ -1,2 +1,3 @@
 Q1
  The parallel() function takes a list of resistor values and calculates the resistance of the circuit in parallel by the summation of the reciprocals of the resistances and is stored in total_resistance, the finall resistance however is obtained by the reciprocal of the total_resistance.
+The potential_divider() functions takes an input Voltage(Input_Voltage) and two resistor values (R1 & R2) stored in Resistors. The voltage drop across each resistor is calculated using the potential divider formula. The voltage across R1 is stored in Output_Volatge1 and the Voltage across R2 is stored in Output_Voltage2.
